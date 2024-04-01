@@ -427,7 +427,7 @@ export default {
         background: "2",
         dataColor: "000000",
         borderRadius: "5",
-        city: "CN101180101",
+        city: "CN101010100",
         key: "4034255d0cc94897b5f745367ccb81f2"
       }
     };
@@ -467,17 +467,22 @@ export default {
 </script>
 
 <style lang="stylus">
-.typed-cursor
-  opacity: 1
-  animation: blink 0.7s infinite
+.typed-cursor{
+  opacity: 1;
+  animation: blink 0.7s infinite;
+}
 
-@keyframes blink
-  0%
-    opacity: 1
-  50%
-    opacity: 0
-  100%
-    opacity: 1
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 </style>
 
 <style scoped>
