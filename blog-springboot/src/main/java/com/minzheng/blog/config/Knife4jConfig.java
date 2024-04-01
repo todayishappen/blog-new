@@ -20,14 +20,14 @@ import java.util.Collections;
  * @author yezhiqiu
  */
 @Configuration
-@EnableSwagger2WebMvc
+//@EnableSwagger2WebMvc
 public class Knife4jConfig {
 
     @Bean
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
-                .protocols(Collections.singleton("https"))
-                .host("https://www.talkxj.com")
+                .protocols(Collections.singleton("http"))
+                .host("https://www.xxxx.com")
                 .apiInfo(apiInfo())
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.minzheng.blog.controller"))
@@ -39,8 +39,8 @@ public class Knife4jConfig {
         return new ApiInfoBuilder()
                 .title("博客api文档")
                 .description("springboot+vue开发的博客项目")
-                .contact(new Contact("风丶宇", "https://github.com/X1192176811", "1192176811@qq.com"))
-                .termsOfServiceUrl("https://www.talkxj.com/api")
+                .contact(new Contact("Big Devil", "https://github.com/todayishappen", "1140569506@qq.com"))
+                .termsOfServiceUrl("https://www.xxxx.com/api")
                 .version("1.0")
                 .build();
     }
