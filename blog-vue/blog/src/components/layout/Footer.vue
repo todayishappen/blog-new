@@ -8,9 +8,14 @@
         {{ new Date().getFullYear() }} By
         {{ blogInfo.websiteConfig.websiteAuthor }}
 
-      <a href="https://beian.miit.gov.cn/" target="_blank">
-        {{ blogInfo.websiteConfig.websiteRecordNo }}
-      </a>
+        <a href="https://beian.miit.gov.cn/" target="_blank">
+          {{ blogInfo.websiteConfig.websiteRecordNo }}
+        </a>
+
+        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=11011202100621" rel="noreferrer" target="_blank">
+          <img alt="" src="beian_img.png" style="width:15px;height:16px;">
+          京公网安备11011202100621
+        </a>
       </div>
 
     </div>

@@ -4,7 +4,7 @@
 
 ​     
 
-<img src="https://macwoss.oss-cn-beijing.aliyuncs.com/articles/679251cb5b766dd7a5f9c019d8bdcb10.png" alt="清如许的博客" style="zoom:25%;" />
+<img src="https://.png" alt="请勿饿死的博客" style="zoom:25%;" />
 
 ## 博客介绍
 
@@ -13,22 +13,20 @@
 </p>
 ## 简介
 
-种一棵树最好的时间是十年前，或者现在！想做一件事别后悔为什么之前没去做，现在去依然不晚！
+走一步，按一下回车！
 
 
 
 ## 在线地址
 
-**项目链接：** [https://www.macw.cc/](https://www.macw.cc)
+**项目链接：** [https://www.todayishappen.cn/](https://www.macw.cc)
 
-**后台链接：** [blog.macw.cc](https://blog.macw.cc)
-
-测试账号：test@qq.com，密码：1234567，可登入后台查看。
+**后台链接：** [blog.todayishappen.cn](https://blog.macw.cc)
 
 
-**Gitee地址：** [https://gitee.com/macw/blog](https://gitee.com/macw/blog)
+**Gitee地址：** 暂无
 
-**在线接口文档地址：** [https://www.macw.cc/api/doc.html](https://www.macw.cc/api/doc.html)
+**在线接口文档地址：** 暂无
 
 您的star是我坚持的动力，感谢大家的支持，欢迎提交pr共同改进项目。
 
@@ -47,13 +45,11 @@
 - 添加博客首页天气标签
 - 添加百度收录
 - 添加CSDN爬虫导入文章
+- 博客文章页面，可以添加附件功能
 
 
 ## 后续更新计划
-- ~~添加博客文章页面，可以添加附件功能等~~【已完成】
 - 添加微信公众号菜单配置功能
-- ~~添加百度收录SEO等~~【已完成】
-- ~~添加博客页面广告接入，后台配置等~~【已完成】
 - 博客首页多主题配置等
 - 其他问题收集中，欢迎博客页留言
 
@@ -72,7 +68,6 @@ SQL文件位于根目录下的blog-mysql8.sql，需要MYSQL8以上版本。
 
 当你克隆项目到本地后可使用邮箱账号：admin@qq.com，密码：1234567 进行登录，也可自行注册账号并将其修改为admin角色。
 
-本地访问接口文档地址：[http://127.0.0.1:8080/doc.html](http://127.0.0.1:8080/doc.html)
 
 **ps：请先运行后端项目，再启动前端项目，前端项目配置由后端动态加载。** 
 
@@ -122,7 +117,7 @@ blog-springboot
 
 **后端：** SpringBoot + nginx + docker + SpringSecurity + Swagger2 + MyBatisPlus + Mysql + Redis + elasticsearch + RabbitMQ + MaxWell + Websocket
 
-**其他：** 接入QQ，微博第三方登录，接入腾讯云人机验证、websocket
+**其他：** 接入QQ，微博第三方登录（暂隐藏），接入腾讯云人机验证、websocket
 
 ## 运行环境
 
@@ -157,26 +152,16 @@ blog-springboot
 
 ## 项目截图
 
-![img.png](https://macwoss.oss-cn-beijing.aliyuncs.com/photos/20a95856b49fada7fc983e58f07e9d52.png)
-![img.png](img/img.png)
-![img_1.png](img/img_1.png)
-![img_2.png](img/img_2.png)
-![img_3.png](img/img_3.png)
-![img_4.png](img/img_4.png)
+![idex.png](img/index.png)
+![img1.png](img/img1.png)
+![img2.png](img/img2.png)
 
 ## 快速开始
 
-### 项目环境安装
-
-详见文章[Docker安装运行环境](https://www.macw.cc/articles/126)
-
 ### 项目配置
 
-详见文章[项目配置教程](https://www.macw.cc/articles/124)
+详见文章[项目配置教程](http://www.todayishappen.cn/articles/61)
 
-### Docker部署项目
-
-详见文章[项目部署教程](https://www.macw.cc/articles/123)
 
 **提别推荐：使用宝塔部署更为方便！！！**
 
@@ -189,13 +174,6 @@ blog-springboot
 ## 项目总结
 
 博客作为新手入门项目是十分不错的，项目所用的技术栈覆盖的也比较广，适合初学者学习。主要难点在于权限管理、第三方登录、websocket这块。做的不好的地方请大家见谅，有问题的或者有好的建议可以私聊联系我。
-
-## 交流QQ
-<img src="img/qq群.png" alt="img.png" style="zoom: 33%;" align="left"/>
-
-
-
-QQ：1055215129
 
 欢迎各位大佬发邮箱进行博客问题沟通，也欢迎各位去博客留言页进行留言，每一条留言我都会认真看并且回复，感谢支持！！！
 

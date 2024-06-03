@@ -1,3 +1,5 @@
 1.将www.macw.cc替换成xx.xx.xx.xx
 2.www.talkxj.com 修改为 www.xxxx.com
 3.暂时删除网盘链接TopNavBar.vue
+
+4.关闭Knife4jConfig，注释注解//@EnableSwagger2WebMvc
